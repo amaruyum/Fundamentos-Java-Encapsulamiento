@@ -35,6 +35,8 @@ public class Persona {
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
     }
-    
-    
+    // to string => nos permite imprimir el estado del objeto en cualquier momento
+    public String toString(){
+        return "Persona nombre: "+this.nombre+", sueldo: "+this.sueldo+",eliminado: "+this.eliminado;
+    }
 }
